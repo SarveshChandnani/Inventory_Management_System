@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Invoice.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Invoice_jar</output-path>
+    <root id="archive" name="login.jar">
+      <element id="module-output" name="login" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-java-8.0.27.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/itextpdf-5.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/rs2xml.jar" path-in-jar="/" />
+      <element id="module-source" name="login" />
+    </root>
+  </artifact>
+</component>

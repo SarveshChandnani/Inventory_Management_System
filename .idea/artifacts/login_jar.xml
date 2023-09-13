@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="login:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/login_jar</output-path>
+    <root id="archive" name="login.jar">
+      <element id="module-output" name="login" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-java-8.0.27.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/rs2xml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/itextpdf-5.4.0.jar" path-in-jar="/" />
+      <element id="directory" name="image">
+        <element id="file-copy" path="D:/Mini_Project/image/1.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/2.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/3.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/4.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/5.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/6.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/7.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/8.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/9.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/10.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/backgroundimg.png" />
+        <element id="file-copy" path="D:/Mini_Project/image/logo.png" />
+      </element>
+    </root>
+  </artifact>
+</component>

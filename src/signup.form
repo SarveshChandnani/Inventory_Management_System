@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="signup">
+  <grid id="27dc6" binding="signup_panel" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="674" height="440"/>
+    </constraints>
+    <properties>
+      <background color="-3105"/>
+      <enabled value="false"/>
+      <foreground color="-3105"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="b513e">
+        <constraints>
+          <grid row="7" column="4" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="5aea0" class="javax.swing.JTextField" binding="namefield">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11111312"/>
+          <foreground color="-790803"/>
+        </properties>
+      </component>
+      <component id="dca54" class="javax.swing.JTextField" binding="loginid">
+        <constraints>
+          <grid row="2" column="3" row-span="5" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11111312"/>
+          <foreground color="-790803"/>
+        </properties>
+      </component>
+      <component id="df496" class="javax.swing.JPasswordField" binding="password1">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11111312"/>
+          <foreground color="-790803"/>
+        </properties>
+      </component>
+      <component id="9708f" class="javax.swing.JPasswordField" binding="passwordconfirm">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11111312"/>
+          <foreground color="-790803"/>
+        </properties>
+      </component>
+      <grid id="965b2" binding="sec_panel" layout-manager="GridLayoutManager" row-count="1" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="650" height="100"/>
+            <preferred-size width="650" height="100"/>
+            <maximum-size width="650" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15980252"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="107f0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="28" style="1"/>
+              <foreground color="-3105"/>
+              <text value="SIGN-UP"/>
+            </properties>
+          </component>
+          <component id="e7e7d" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="60" height="25"/>
+                <preferred-size width="60" height="25"/>
+                <maximum-size width="60" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4002354"/>
+              <font size="22"/>
+              <foreground color="-15980252"/>
+              <text value="🔙"/>
+            </properties>
+          </component>
+          <hspacer id="85284">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="61d73">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="e014">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="2e4df">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="a4642">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <component id="4418b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="14" style="1"/>
+          <foreground color="-15980252"/>
+          <text value="NAME"/>
+        </properties>
+      </component>
+      <component id="7e5dd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="2" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="14" style="1"/>
+          <foreground color="-15980252"/>
+          <text value="LOGIN_ID"/>
+        </properties>
+      </component>
+      <component id="38618" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="14" style="1"/>
+          <foreground color="-15980252"/>
+          <text value="PASSWORD"/>
+        </properties>
+      </component>
+      <component id="bf611" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="14" style="1"/>
+          <foreground color="-15980252"/>
+          <text value="CONFIRM PASSWORD"/>
+        </properties>
+      </component>
+      <hspacer id="2f5b9">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="727aa">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="e129a" layout-manager="GridLayoutManager" row-count="1" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3105"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c0dbb" class="javax.swing.JButton" binding="SAVEButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="25"/>
+                <preferred-size width="80" height="25"/>
+                <maximum-size width="80" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-11111312"/>
+              <font name="Calibri" size="14" style="1"/>
+              <foreground color="-790803"/>
+              <horizontalTextPosition value="0"/>
+              <text value="SAVE"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <hspacer id="deb40">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="97628">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="b5580">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="b4a2b">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="d58c4">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="c8f0f">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="25ae8">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="360f1">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
